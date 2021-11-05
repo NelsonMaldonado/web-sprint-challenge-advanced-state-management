@@ -1,3 +1,11 @@
+import {
+  SMURF_ADD,
+  SMURF_SET_ERROR,
+  SMURF_FETCH,
+  SMURF_SUCCESS,
+  SMURF_FETCH_FAIL,
+} from "../actions"
+
 export const initialState = {
   smurfs: [],
   isLoading: false,
