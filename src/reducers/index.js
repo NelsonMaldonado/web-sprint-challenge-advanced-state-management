@@ -11,7 +11,6 @@ export const initialState = {
   isLoading: false,
   error: "",
 }
-console.log("current state: ", state)
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
