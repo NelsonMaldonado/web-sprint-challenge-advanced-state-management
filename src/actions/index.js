@@ -6,7 +6,7 @@ export const SMURF_FETCH_FAIL = "SMURF_FETCH_FAIL"
 export const SMURF_ADD = "SMURF_ADD"
 export const SMURF_SET_ERROR = "SMURF_SET_ERROR"
 
-export const fetchSmurfs = () => {
+export const fetchSmurfs = () => (dispatch) => {
   dispatch({
     type: SMURF_FETCH,
   })
